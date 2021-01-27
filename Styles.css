@@ -1,0 +1,83 @@
+html{
+
+	min-height:100%;
+	position:relative;
+}
+
+/* This sets the background image */
+body{
+
+	/*margin: 0 auto;
+	background-color: #f2f2f2;*/
+	background-image: url('background.jpg');
+}
+
+/*This sets the formating on the text next to the header image */
+h1.headerText{
+
+	font-family: Arial;
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	float: left;
+	
+}
+
+/* Most of this code is for centering text on the whitespace in the future */
+p.paraOne{
+
+	font-family: Arial;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	/* max-width: 58.75em;
+	padding:1em 2.5em; */
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 25em;
+    background-color: white;
+    align-items: center;
+ 
+}
+
+/* This is for the whitespace. Don't mess with this or imma kick you! */
+#whiteBody{
+	margin:0em auto;
+	width: 75%;
+	height: 100%;
+	background-color:#FFFFFF;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	overflow:hidden;
+	z-index:-1;
+}
+
+/* This is for the code for the footer.  
+It floats and has curved edges you just can't see it because it's white.
+The original background image was gray so you could see the curves.
+Now it just exists for those of us that can see it */
+div.divFooterOne{
+	
+	padding: 30px 30px 30px 30px;
+}
+
+footer.footerOne{
+
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	center: 0;
+	color: black;
+	font-size: 10px;
+	font-family: Arial;
+	background-color: #FFFFFF;
+	border-radius: 25px;
+}
+
+
+
+/* Are you still there? */
