@@ -134,5 +134,22 @@ footer.footerOne{
 	background-color: #99cc99;
 	border-radius: 25px;
 }
+/* Code for falling snowflakes */
+ #snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
 
+  .snowflake {
+    position: fixed;
+    background-color: #EEE;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+  }
 /* Are you still there? */
