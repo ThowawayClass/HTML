@@ -41,7 +41,30 @@ p.paraOne{
     align-items: center;
  
 }
+p.paraOneHeader{
 
+	font-family: Arial;
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	/* max-width: 58.75em;
+	padding:1em 2.5em; */
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 25em;
+    background-color: white;
+    align-items: center;
+ 
+}
+.paraTwo{
+
+	font-family: Arial;
+	text-align: center;
+	font-size: 25px;
+ 
+}
 /* This is for the whitespace. Don't mess with this or imma kick you! */
 #whiteBody{
 	margin:0em auto;
