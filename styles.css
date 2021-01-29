@@ -59,7 +59,7 @@ p.paraOne{
     margin-right: auto;
     margin-bottom: auto;
     width: 25em;
-    background-color: white;
+    /*background-color: white;*/
     align-items: center;
  
 }
@@ -76,7 +76,7 @@ p.paraOneHeader{
     margin-right: auto;
     margin-bottom: auto;
     width: 25em;
-    background-color: white;
+    /*background-color: white;*/
     align-items: left;
  
 }
@@ -92,7 +92,7 @@ p.paraOneIndent{
     margin-right: auto;
     margin-bottom: auto;
     width: 25em;
-    background-color: white;
+    /*background-color: white;*/
     align-items: left;
 }
 /* This is for the whitespace. Don't mess with this or imma kick you! */
@@ -100,7 +100,8 @@ p.paraOneIndent{
 	margin:0em auto;
 	width: 75%;
 	height: 100%;
-	background-color:#FFFFFF;
+	/*background-color:#FFFFFF;*/
+  	background-image: linear-gradient(#ffcccc, #cce5cc);
 	position:absolute;
 	top:0;
 	bottom:0;
@@ -128,12 +129,8 @@ footer.footerOne{
 	color: black;
 	font-size: 10px;
 	font-family: Arial;
-	background-color: #cce5cc;
+	background-color: #99cc99;
 	border-radius: 25px;
 }
-
-
-
-
 
 /* Are you still there? */
