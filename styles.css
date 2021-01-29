@@ -66,6 +66,8 @@ p.paraOne{
 p.paraOneHeader{
 
 	font-family: Arial;
+	/* If you ever want shadows around the text */
+	/*text-shadow: 0 0 3px #00cd00, 0 0 5px #00cd00;*/
 	text-align: left;
 	color: black;
 	font-size: 40px;
@@ -101,7 +103,7 @@ p.paraOneIndent{
 	width: 75%;
 	height: 100%;
 	/*background-color:#FFFFFF;*/
-  	background-image: linear-gradient(#ffcccc, #cce5cc);
+  	background-image: linear-gradient(180deg, #ffcccc, #cce5cc);
 	position:absolute;
 	top:0;
 	bottom:0;
